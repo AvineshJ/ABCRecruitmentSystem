@@ -2,12 +2,7 @@ import java.time.LocalDate;
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-//    	LocalDate dob = LocalDate.of(1999, 8, 10);
-//
-//        Candidate candidate = new Candidate("John Smith", dob, "India", true, 59, 60, 60, 80, 8.5, 9.0, 2, 40);
-//        
-//        RecruitingTeam team = new RecruitingTeam();
-//        team.conductInterview(candidate);
+
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Enter candidate name: ");
                 String name = scanner.nextLine();
